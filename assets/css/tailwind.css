@@ -1,0 +1,9 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+body {
+  @apply text-base;
+  @apply text-gray-500;
+  font-family: 'Source Serif Pro', serif;
+}
