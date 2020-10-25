@@ -28,7 +28,7 @@ export default {
 
   data() {
     return {
-      step: 3,
+      step: 1,
       isAnimating: true,
 
       visitor: this.$route.query.visitor || '',

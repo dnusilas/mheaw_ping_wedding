@@ -3,7 +3,7 @@
     class="flex justify-center items-center min-w-screen min-h-screen relative"
   >
     <div>
-      <div id="description" class="text-center opacity-0">
+      <div id="description" class="relative text-center opacity-0 z-10">
         <div class="text-xs md:text-lg mb-12">
           Tuesday , December
           <span class="text-base md:text-2xl">15</span>th<br />18:00 PM
@@ -22,8 +22,8 @@
           >
         </div>
 
-        <div class="lg:flex items-center">
-          <div class="text-xs lg:text-lg lg:mr-10">Dress Code</div>
+        <div class="xl:flex items-center">
+          <div class="text-xs xl:text-lg xl:mr-10">Dress Code</div>
           <div class="inline-flex">
             <div class="color color__1 mr-5"></div>
             <div class="color color__2 mr-5"></div>
@@ -33,11 +33,11 @@
         </div>
       </div>
       <div
-        class="hashtag md:w-3/5 lg:w-1/5 -mt-48 md:-mt-56 lg:mt-0 lg:ml-40 relative lg:absolute mx-auto"
+        class="hashtag md:w-3/5 xl:w-1/5 -mt-48 md:-mt-56 xl:mt-0 xl:ml-40 relative xl:absolute mx-auto"
       >
         <img class="w-full h-full pb-12" src="/images/S__33873924.png" />
         <p
-          class="relative lg:absolute left-0 bottom-0 -mt-48 md:-mt-64 lg:mt-0 lg:pb-40 lg:pl-20 text-xs md:text-base"
+          class="relative xl:absolute left-0 bottom-0 -mt-48 md:-mt-64 xl:mt-0 xl:pb-32 xl:pl-10 text-xs md:text-base"
         >
           #mmppwedding
         </p>

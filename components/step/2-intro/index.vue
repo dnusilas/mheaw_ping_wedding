@@ -6,15 +6,15 @@
       </div>
       <div class="mb-1 md:mb-10">
         <div>
-          <Apinya class="w-2/3 md:w-auto mx-auto" ref="apinya" />
+          <Apinya ref="apinya" class="w-2/3 md:w-auto mx-auto" />
         </div>
         <div class="-mt-16 md:-mt-6 pl-16">
           <And ref="and" class="w-16 md:w-auto mx-auto" />
         </div>
         <div class="-mt-16 md:-mt-6">
           <Siphong
-            class="w-2/3 md:w-auto mx-auto"
             ref="siphong"
+            class="w-2/3 md:w-auto mx-auto"
             @fnDrawDone="fillColors"
           />
         </div>
